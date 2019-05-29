@@ -1,0 +1,14 @@
+@font-face {
+    font-family: hello;
+    src: url('../assets/fonts/7_Segment.ttf');
+}
+p{
+	 font-family: hello;
+}
+
+#myCanvas{
+background:url('../images/bg.png'); 
+background-size: cover;
+margin-left: 650px;
+margin-top: 200px;
+}
