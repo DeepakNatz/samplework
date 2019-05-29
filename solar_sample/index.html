@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title>Solar Sample</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="HandheldFriendly" content="true">
+      <link rel="icon" type="image/gif" href="assets/images/dblue.png">
+    <link rel="stylesheet" href="assets\css\bootstrap-4.1.3-dist\bootstrap.min.css">
+      <link rel="stylesheet" href="assets\css\bootstrap-4.1.3-dist\bootstrap-grid.css">
+      <link rel="stylesheet" href="assets\css\bootstrap-4.1.3-dist\bootstrap-reboot.css">
+	  <script src="libs\jquery-ui-1.12.1.custom\external\jquery\jquery.js"></script>
+	  <script src="libs\jquery-ui-1.12.1.custom\jquery-ui.js"></script>
+    <link href="assets\css\jquery-ui-1.12.1.custom\jquery-ui.css" rel="stylesheet" />
+	<link rel="stylesheet" href="assets\css\style.css">
+</head>
+<body class="container-fluid p-0" style="font-family: Arial">
+<div class="fullpage text-center" id="fullpage">
+				<div id="intro-text ">
+                      <h1 href="#">Solar mode changer</h1>
+                       <h4>by DeepakNatz</h4> 
+                        </div>
+						<div id="switch">
+      <div id="circle"></div>
+    </div>
+<div class="space stars1"></div>
+<div class="space stars2"></div>
+<div class="space stars3"></div>
+<div class="section row">
+	<div class="col-sm-4 ">
+	<div class="earth dropable size" id="dropableEarth"></div></div>
+	<div class="col-sm-4 ">
+	<div class ="sun dropable size" id="dropableSun"></div></div> 
+	<div class="col-sm-4 ">
+	<div class="moon dropable size" id="dropableMoon">
+		<div></div>
+        <div></div>
+        <div></div>
+		</div>
+	</div>
+</div>
+<div class="row dragger ">
+	<div class="col-sm-12">
+		<div class="row text-center">
+			<div class="col-sm-4 ">
+	<div class="earthval draggable" id="draggable1"><h1 href="#">Earth</h1></div></div>
+	<div class="col-sm-4 ">
+	<div class ="sunval draggable" id="draggable2"><h1 href="#">Sun</h1></div></div> 
+	<div class="col-sm-4 ">
+	<div class="moonval draggable" id="draggable3"><h1 href="#">Mars</h1></div>
+	</div>
+		</div>
+	</div>
+
+</div>
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
